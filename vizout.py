@@ -31,7 +31,6 @@ def extract_extends(filename, parentnode=None):
                         extends = extends.split('\n')
                     else:
                         extends = [extends]
-                import ipdb; ipdb.set_trace()
                 for extends_file in extends:
                     if extends_file:
                         graph += extract_extends(
