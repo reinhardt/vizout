@@ -12,7 +12,7 @@ Looks for the "extends" option in _filename_ and recursively in referenced files
 
 You can use the output with graphviz as you see fit. A simple example that makes a png image:
 
-<code>$ python vizout.py > buildout.gv && dot -Tpng buildout.gv > buildout.png</code>
+<code>$ python vizout.py | dot -Tpng > buildout.png</code>
 
 ToDo
 ----
