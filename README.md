@@ -1,7 +1,7 @@
 vizout
 ======
 
-Constructs a graphviz representation of buildout files referenced by "extends"
+Constructs a graphviz representation of a hierarchy of [buildout](http://www.buildout.org) configuration files referenced by "extends"
 
 Usage
 -----
